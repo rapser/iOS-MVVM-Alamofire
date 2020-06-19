@@ -20,12 +20,12 @@ struct DataService {
     // MARK: - Services
     func requestFetchPhoto(with id: Int, completion: @escaping (Photo?, Error?) -> ()) {
         let url = "\(photoUrl)/\(id)"
-        Alamofire.request(url).responsePhoto { response in
+        AF.request(url).responsePhoto { response in
             if let error = response.error {
                 completion(nil, error)
                 return
             }
-            if let photo = response.result.value {
+            if let photo = response.value {
                 completion(photo, nil)
                 return
             }

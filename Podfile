@@ -6,8 +6,8 @@ target 'MVVM Alamofire' do
   use_frameworks!
 
   # Pods for MVVM Alamofire
-  pod 'Alamofire', '~> 4.7'
-  pod 'SDWebImage', '~> 4.0'
+  pod 'Alamofire'
+  pod 'SDWebImage'
 
   target 'MVVM AlamofireTests' do
     inherit! :search_paths
