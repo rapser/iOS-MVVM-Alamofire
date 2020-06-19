@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        attemptFetchPhoto(withId: 8)
+        attemptFetchPhoto(withId: 7)
     }
     
     // MARK: - Networking

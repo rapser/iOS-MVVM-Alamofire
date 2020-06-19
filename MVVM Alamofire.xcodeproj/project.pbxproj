@@ -305,13 +305,16 @@
 				TargetAttributes = {
 					92E180B920F72F06005368CF = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1150;
 					};
 					92E180CD20F72F07005368CF = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1150;
 						TestTargetID = 92E180B920F72F06005368CF;
 					};
 					92E180D820F72F07005368CF = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1150;
 						TestTargetID = 92E180B920F72F06005368CF;
 					};
 				};
@@ -423,19 +426,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MVVM Alamofire/Pods-MVVM Alamofire-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM Alamofire/Pods-MVVM Alamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM Alamofire/Pods-MVVM Alamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM Alamofire/Pods-MVVM Alamofire-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM Alamofire/Pods-MVVM Alamofire-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -625,7 +625,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P6FCYRT7JM;
 				INFOPLIST_FILE = "MVVM Alamofire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -633,7 +633,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.MVVM-Alamofire";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -644,7 +644,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P6FCYRT7JM;
 				INFOPLIST_FILE = "MVVM Alamofire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -652,7 +652,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.MVVM-Alamofire";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -664,6 +664,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6FCYRT7JM;
 				INFOPLIST_FILE = "MVVM AlamofireTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -672,7 +673,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.MVVM-AlamofireTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM Alamofire.app/MVVM Alamofire";
 			};
@@ -685,6 +686,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6FCYRT7JM;
 				INFOPLIST_FILE = "MVVM AlamofireTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -693,7 +695,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.MVVM-AlamofireTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM Alamofire.app/MVVM Alamofire";
 			};
@@ -705,6 +707,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6FCYRT7JM;
 				INFOPLIST_FILE = "MVVM AlamofireUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -713,7 +716,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.MVVM-AlamofireUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "MVVM Alamofire";
 			};
@@ -725,6 +728,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6FCYRT7JM;
 				INFOPLIST_FILE = "MVVM AlamofireUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -733,7 +737,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.MVVM-AlamofireUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "MVVM Alamofire";
 			};
